@@ -1,0 +1,112 @@
+body {
+    color: #333;
+	font-family: 'SkyFinalMediumRegular', sans-serif;
+	font-size:16px;
+	line-height: 1.5;
+	padding: 0 10px;
+	background: #d7d6d6 url('../images/settings-back.png') top center no-repeat fixed;
+	background-size: 100% auto;
+}
+
+h1, h2, h3, h4 {
+	color: #333;
+	font-family: 'SkyFinalBoldRegular', sans-serif;
+	line-height: 1.1;
+}
+
+h1 {
+	font-size:20px;
+}
+
+h2 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+h3 {
+	color: #333;
+	font-size: 16px;
+}
+
+p {
+	margin-top: 0;
+}
+
+.sky-products {
+	display: block;
+	margin: 0 auto 20px;
+}
+
+ul.list1{
+	color: #515151;
+	list-style: none;
+	padding-left: 20px;
+}
+
+
+.list1 li{
+	margin-bottom:20px;
+	position: relative;
+}
+
+.list1 li:before {
+	content: url('../images/disc.png');
+	position: absolute;
+	left: -20px;
+	top: 2px;
+	vertical-align: middle;
+}
+
+.list1 h3 {
+	display: inline;
+}
+
+.list1 h3:after {
+	content: ' - ';
+	font-family: 'SkyFinalBoldRegular', sans-serif;
+}
+
+.image-wrapper {
+	float:left;
+	width: 90px;
+	text-align: center;
+	margin: 0 10px 10px 0;
+}
+
+hr {
+	border-style: solid;
+	border-width: 1px 0 0 0;
+	border-color: #ddd;
+	margin: 0 -10px;
+}
+
+header + * {
+	clear: both;
+}
+
+dt {
+	font-family: 'SkyFinalBoldRegular', sans-serif;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+dd {
+	margin: 0 0 20px 0;
+}
+
+.prefs {
+	background: #fff;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+.prefs th {
+	padding: 10px;
+}
+
+.prefs td {
+	background: #eee;
+	padding: 20px;
+}

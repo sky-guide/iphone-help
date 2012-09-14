@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+	/*background: url(images/How_to_screen.jpg) no-repeat top left;*/
+	background-color: #EEEEEE;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.thumb
+{
+	padding-bottom: 40px;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+	}
+ul.list1
+{
+	/*list-style-image: url(images/bullet.png);*/
+	list-style-type: disc;
+	margin-left: 20px;
+	margin-right: 40px;	
+	color: #515151;
+	font-family: 'SkyFinalRegularRegular';
+	font-size:16px;
+	}
+.para
+{
+	margin-left: 20px;
+	margin-top: 20px;
+	}
+a
+{
+	text-decoration:none;
+	font-family: 'SkyFinalRegularRegular';
+	font-size:16px;
+	color: #013ea3;
+	}
+	
+a:focus, a:hover
+{
+	text-decoration:underline;	
+	}	
+a:visited { color: #C00;}
+
+table.pref{
+	border: solid 1px #8b8b8b;
+	
+	}
+
+.text1
+{
+	color: #515151;
+	font-family: 'SkyFinalRegularRegular';
+	font-size:16px;
+	padding-left:20px;
+	padding-right: 20px;
+}
+.text2
+{
+	color: #616161;
+	font-family: 'SkyFinalBoldRegular';
+	font-size:16px;
+	text-align:left;
+	padding-left:20px;
+	padding-right: 20px;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+.tcell
+{
+	color: #616161;
+	font-family: 'SkyFinalMediumRegular';
+	font-size:16px;
+	text-align:left;
+	padding-left:20px;
+	padding-right: 20px;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+li.sp1 {
+	padding-bottom:10px;
+	list-style: disc;
+	margin-right: 20px;
+	}
+
+.privacy {
+	background-color:#FFF;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #999;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-moz-border-radius: 5px;
+	border-top-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+	
+	border-bottom-left-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	
+	margin:20px 20px 20px 20px;
+
+}
+
+.titletext1
+{
+	font-family: 'SkyFinalBoldRegular';
+	font-size:20px;
+	color: #515151;
+	padding-left:20px;
+	padding-right: 20px;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+
+.titletext2
+{
+	font-family: 'SkyFinalBoldRegular';
+	font-size:18px;
+	color: #515151;
+	padding-left:20px;
+	padding-right: 20px;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+
+.divtitle
+{
+	font-family: 'SkyFinalBoldRegular';
+	font-size:20px;
+	text-align:left;
+	padding-left:15px;
+	padding-right:10px;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+.howtotitle
+{
+	font-family: 'SkyFinalBoldRegular';
+	font-size:20px;
+	text-align:left;
+	padding-left:45px;
+	padding-right:10px;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+
+.superscript{font-size: medium; vertical-align:top;} 
+
+.divtitlefade
+{
+	font-family: 'SkyFinalBoldRegular';
+	font-size:22px;
+	text-align:left;
+	padding-left:15px;
+	padding-right:15px;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+
+.title1
+{
+	color: #515151;
+	font-family: 'SkyFinalBoldRegular';
+	font-size:22px;
+	text-align:left;	
+	padding-left:15px;
+	padding-right:15px;
+}
+
+
+.title2
+{
+	color: #8b8b8b;
+	font-family: 'SkyFinalBoldRegular';
+	font-size:22px;
+	text-align:left;
+	padding-left:15px;
+	padding-right: 15px;
+}
+
+.paratext
+{
+	color: #515151;
+	font-family: 'SkyFinalRegularRegular';
+	font-size:16px;
+}
+.paratextbold
+{
+	font-family: 'SkyFinalBoldRegular';
+	font-size:16px;
+	text-align:left;
+	text-shadow: 0px 1px 1px #ffffff;
+	color: #515151;
+}
+
+.innershadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
